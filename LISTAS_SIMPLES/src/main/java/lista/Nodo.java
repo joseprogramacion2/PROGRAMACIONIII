@@ -8,8 +8,8 @@ private int valor;
 // Variable para enlazar los nodos.
 private Nodo siguiente;
 /**
-13. * Constructor que inicializamos el valor de las variables.
-14. */
+* Constructor que inicializamos el valor de las variables.
+*/
 public void Nodo(){
 this.valor = 0;
 this.siguiente = null;
@@ -26,4 +26,5 @@ return siguiente;
 }
 public void setSiguiente(Nodo siguiente) {
 this.siguiente = siguiente;
-}}
+} 
+}
